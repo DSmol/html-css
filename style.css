@@ -1,0 +1,86 @@
+body{
+background-color: #f8f8f8;
+;margin-left: 20px;
+}
+.menu{
+    font-family: cursive;
+    font-size: 20px;
+    color: darkviolet;
+    list-style-type: none;
+}    
+.title_h1{
+    color: darkslateblue;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #eaeaea
+}
+
+
+.title_h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+
+.img_size{
+    width: 250px;
+}
+.description_1{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    margin-left: 20px;
+}
+.description_2{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.description_3{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+    color:#888;
+    list-style-image: url("catalog/arrow.jpg");
+    margin-left: 20px;
+}
+.description_3 span {
+    color:#272727
+}
+
+.input_field, input, select, textarea, button{
+    font-family: sans-serif;
+    color: black;
+    font-size: 22px;
+    margin-left: 30px;
+    
+}
+.input_field input {
+    color: darkblue;
+    margin-left: 10px;
+    width: 350px;
+}
+
+.input_field button {
+    margin-left: 0px;
+}
+.input_field select {
+    color: darkred;
+    margin-left: 10px;
+    width: 210px;
+
+}
+.input_field textarea {
+    color: darkblue;
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+}
