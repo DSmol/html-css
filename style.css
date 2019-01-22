@@ -2,10 +2,10 @@ body{
 background-color: #f8f8f8;
 ;margin-left: 20px;
 }
-.menu{
+.menu a{
     font-family: cursive;
     font-size: 20px;
-    color: darkviolet;
+    color: cornflowerblue;
     list-style-type: none;
 }    
 .title_h1{
@@ -25,6 +25,10 @@ background-color: #f8f8f8;
 
 .img_size{
     width: 250px;
+    border: 1px solid black;
+}
+.image_border{
+    border: 1px solid black;
 }
 .description_1{
     color: #707070;
@@ -56,6 +60,7 @@ background-color: #f8f8f8;
     color:#272727
 }
 
+
 .input_field, input, select, textarea, button{
     font-family: sans-serif;
     color: black;
@@ -73,14 +78,29 @@ background-color: #f8f8f8;
     margin-left: 0px;
 }
 .input_field select {
-    color: darkred;
+    font-size: 20px;
+/*    color: darkred;*/
     margin-left: 10px;
     width: 210px;
-
 }
+
+option[value="1"]{
+    color: red;
+}
+option[value="2"]{
+    color: cornflowerblue;
+}
+option[value="3"]{
+    color: goldenrod;
+}
+option[value="4"]{
+    color: yellowgreen;
+}
+
 .input_field textarea {
     color: darkblue;
     width: 400px;
     height: 200px;
     margin-left: 0px;
 }
+
