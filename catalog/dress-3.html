@@ -6,19 +6,22 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-   
-    <ul class="menu">
-       <li><a href="../index.html"> Главная</a></li>
-       <li><a href="catalog.html"> Каталог</a></li>
-       <li><a href="../cantacts.html"> Контакты</a></li>
-    </ul>
-    <hr>
+   <div class="block_header block_header_logo">
+        
+         <ul class="menu">
+             <li><a class="menu-link" href="../index.html"> Главная</a></li>
+             <li><a class="menu-link" href="catalog.html"> Каталог</a></li>
+             <li><a class="menu-link" href="../contacts.html"> Контакты</a></li>
+         </ul>
+    </div>
+    <div class="block_black">
+    </div>
     
      <h2>Платье, Oodji</h2>
         <h3 class="title_h3">
             Описание товара
         </h3>
-        <a href="dress-3.jpg" target="_blank"><img src="dress-3.jpg" alt="dress-3" height="300" class="image_border"></a>
+        <a href="dress-3.jpg" target="_blank"><img src="dress-3.jpg" alt="dress-3"  class="img_catalog image_catalog_hover"></a>
         <p class="description_1">
         Артикул: 3922983 <br>
         Цвет: темно-синий <br>
@@ -29,12 +32,19 @@
             Характеристики товара
         </h3>
         
-        <p class="description_2">
-            Цена <br>
-            <del><b>984 руб</b></del> <br> 
-            <b>649 руб</b>  <br> 
-            Размер <b>L</b>
-        </p>
+        <table class="table">
+            <tr>
+                <td rowspan="2" class = "text_align_left">Цена</td>
+                <td><del><b>984 руб</b></del></td>
+            </tr>
+            <tr>
+                <td class="font_color_red"><b>649 руб</b></td>
+            </tr>
+            <tr>
+                <td class = "text_align_left">Размер</td>
+                <td><b>L</b></td>
+            </tr>
+        </table>
         
         <h3 class="title_h3">
             Подробное описание товара
@@ -56,15 +66,11 @@
                 <li>Страна производитель: <span>Китай</span></li>
                 <li>Комплектация: <span>платье</span></li>
             </ul>
-            
 
-
- 
-        
-    
-        <hr>
+    <div class="block_black "></div>
+    <div class="block_footer">
+        &copy; Все права защищены.
+    </div>
 </body>
-<footer>
-  &copy; Все права защищены.
-</footer>
+
 </html>

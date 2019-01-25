@@ -5,11 +5,44 @@ background-color: #f8f8f8;
 .menu{
     list-style-type: none;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 50px;
+    line-height: 33px;
 }    
-.menu a{
+.menu-link{
     color: cornflowerblue;
+    text-decoration: none;
 }
+.menu-link:hover{
+    color: red;
+}
+
+.block_header{
+    background-color: #eee;
+    height: 100px;
+    position: relative
+}
+
+.block_header_logo:after{
+    content: ' ';
+    display: block;
+    background-image: url(logo.png);
+    height:100px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+}
+.block_black:after{
+    content: ' ';
+    display: block;
+    height: 20px;
+    background-color: darkblue;  
+}
+.block_footer{
+    height: 100px;
+    background-color: #eee;
+}
+
 .title_h1{
     color: darkslateblue;
     font-size: 30px;
@@ -25,13 +58,14 @@ background-color: #f8f8f8;
     background-color: #eaeaea
 }
 
-.img_size{
+.img_catalog{
     width: 250px;
-    border: 1px solid black;
+    outline: 1px solid black;
 }
-.image_border{
-    border: 1px solid black;
+.image_catalog_hover:hover{
+    outline: 0px solid black;
 }
+
 .description_1{
     color: #707070;
     font-size: 14px;
@@ -56,7 +90,6 @@ background-color: #f8f8f8;
     text-align: left;
     color:#888;
     list-style-image: url("catalog/arrow.jpg");
-    margin-left: 20px;
 }
 .description_3 span {
     color:#272727
@@ -67,25 +100,39 @@ background-color: #f8f8f8;
     font-family: sans-serif;
     color: black;
     font-size: 22px;
-    margin-left: 30px;
-    
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
 }
-.input_field input {
-    color: darkblue;
-    margin-left: 10px;
-    width: 350px;
+.input_field{
+    border: 0px solid black;
 }
 
-.input_field button {
+.input_field_input{
+    
+    color: darkblue;
+    width: 400px;
+    text-transform: capitalize;
+}
+.input_field_input_focused:focus{
+    background: #eee;
+    border: 2px solid #29B0D9;
+}
+
+.input_field_button {
     margin-left: 0px;
 }
-.input_field select {
-    font-size: 20px;
-/*    color: darkred;*/
-    margin-left: 10px;
-    width: 210px;
+.input_field_select {
+    font-size: 22px;
+    width: 405px;
 }
-
+.input_field_textarea {
+    color: darkblue;
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+    text-transform: capitalize;
+}
 option[value="1"]{
     color: red;
 }
@@ -96,13 +143,26 @@ option[value="3"]{
     color: goldenrod;
 }
 option[value="4"]{
-    color: yellowgreen;
+    color: darkgreen;
 }
 
-.input_field textarea {
-    color: darkblue;
-    width: 400px;
-    height: 200px;
-    margin-left: 0px;
+table{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 30px;
+    font-size: 24px;
+    
 }
-
+.font_color_red{
+    color: red;
+}
+.text_align_left{
+    text-align: left;
+    padding: 5px;
+}
+td{
+    border: 1px solid black;
+}
